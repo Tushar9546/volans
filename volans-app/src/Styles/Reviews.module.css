@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.reviewWrapper{
+    margin:1%;
+    width: 100%;
+    height: 400px;
+}
+.headingWrapper{
+    width: 50%;
+    margin: auto;
+    height: 15%;
+    padding: 5%;
+    float: left;
+}
+.headingWrapper > h2{
+    font-size: 30px;
+}
+.headingWrapper > h2 > span {
+    color: rgb(5, 5, 154);
+}
+.headingWrapper > p {
+    font-size: 12px;
+}
+.cardContainer{
+    width: 70%;
+    margin: auto;
+    height: 84%;
+    position: relative;
+    overflow: hidden;
+}
+.productContainer {
+    padding: 0 5px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.preBtn,
+.nextBtn {
+    border: none;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.436);
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 50px;
+}
+.nextBtn {
+    right: 0;
+}
+
+/* For Medium Screen */
+@media all and (min-width:451px) and (max-width:820px){
+    .headingWrapper{
+        width: 60%;
+    }
+}
+
+/* For Small Screen */
+@media all and (min-width:100px) and (max-width:450px) {
+    .headingWrapper{
+        width: 85%;
+    }
+}

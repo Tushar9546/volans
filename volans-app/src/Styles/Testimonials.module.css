@@ -1,0 +1,65 @@
+.testWrapper{
+    width: 100%;
+    height: 550px;
+    margin-top: 15%;
+    position: relative;
+}
+.testWrapper > img {
+    width: 100%;
+    height: 100%;  
+}
+.info{
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+}
+.info > h2{
+    float: left;
+    font-size: 30px;
+}
+.Container{
+    position: absolute;
+    width: 70%;
+    height: 70%; 
+    top: 30%;
+    left: 15%;
+    display: flex;
+}
+.ProContainer{
+    padding: 0 5px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin: 0 auto;
+}
+.preBtn,
+.nextBtn {
+    border: none;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.436);
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 50px;
+}
+.nextBtn {
+    right: 0;
+}
+
+/* For Medium Screen */
+@media all and (min-width:451px) and (max-width:820px){
+   
+}
+
+/* For Small Screen */
+@media all and (min-width:100px) and (max-width:450px) {
+   
+}
